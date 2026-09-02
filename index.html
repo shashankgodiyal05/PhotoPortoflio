@@ -29,8 +29,57 @@
 
 	<main>
 		<section class="hero" id="home">
-			<div class="hero-media reveal">
-				<img src="images/image1.png" alt="Professional portrait and cinematic wedding production scene">
+			<div class="hero-media reveal" data-slider>
+				<div class="hero-slider">
+					<figure class="hero-slide active" data-slide>
+						<img src="images_1/img1.jpeg" alt="Professional portfolio image 1">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img2.jpeg" alt="Professional portfolio image 2">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img3.jpeg" alt="Professional portfolio image 3">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img4.jpeg" alt="Professional portfolio image 4">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img5.jpeg" alt="Professional portfolio image 5">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img6.jpeg" alt="Professional portfolio image 6">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img7.JPEG" alt="Professional portfolio image 7">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img8.JPEG" alt="Professional portfolio image 8">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img9.jpeg" alt="Professional portfolio image 9">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img10.JPEG" alt="Professional portfolio image 10">
+					</figure>
+					<figure class="hero-slide" data-slide>
+						<img src="images_1/img11.JPEG" alt="Professional portfolio image 11">
+					</figure>
+					<button class="hero-slider-btn prev" type="button" aria-label="Previous hero photo" data-slider-prev>&#8249;</button>
+					<button class="hero-slider-btn next" type="button" aria-label="Next hero photo" data-slider-next>&#8250;</button>
+				</div>
+				<div class="hero-slider-dots" aria-label="Hero photo navigation">
+					<button class="active" type="button" aria-label="Show hero photo 1" data-slide-to="0"></button>
+					<button type="button" aria-label="Show hero photo 2" data-slide-to="1"></button>
+					<button type="button" aria-label="Show hero photo 3" data-slide-to="2"></button>
+					<button type="button" aria-label="Show hero photo 4" data-slide-to="3"></button>
+					<button type="button" aria-label="Show hero photo 5" data-slide-to="4"></button>
+					<button type="button" aria-label="Show hero photo 6" data-slide-to="5"></button>
+					<button type="button" aria-label="Show hero photo 7" data-slide-to="6"></button>
+					<button type="button" aria-label="Show hero photo 8" data-slide-to="7"></button>
+					<button type="button" aria-label="Show hero photo 9" data-slide-to="8"></button>
+					<button type="button" aria-label="Show hero photo 10" data-slide-to="9"></button>
+					<button type="button" aria-label="Show hero photo 11" data-slide-to="10"></button>
+				</div>
 				<div class="availability-card">
 					<span>Available For</span>
 					<strong>International Photography, Videography & Editing Roles</strong>
@@ -129,49 +178,173 @@
 			</div>
 			<div class="portfolio-filters" aria-label="Portfolio categories">
 				<a href="#wedding-photography">Wedding Photography</a>
-				<a href="#wedding-films">Wedding Films</a>
-				<a href="#pre-wedding">Pre-Wedding</a>
-				<a href="#events">Events</a>
-				<a href="#drone">Drone</a>
-				<a href="#editing">Editing</a>
+				<a href="#wedding-videos">Wedding Videos</a>
+				<a href="#drone-shots">Drone</a>
 			</div>
-			<div class="gallery">
-				<figure id="wedding-photography">
-					<img src="images/image2.png" alt="Wedding photography portfolio detail">
+			<section class="photo-slider" id="wedding-photography" aria-label="Wedding photography slider" data-slider>
+				<div class="slider-heading">
+					<div>
+						<span>Wedding Photography</span>
+						<h3>Featured Wedding Gallery</h3>
+					</div>
+					<p>Ten selected frames from the wedding photography collection, presented for quick recruiter and client review.</p>
+				</div>
+				<div class="slider-shell">
+					<button class="slider-btn prev" type="button" aria-label="Previous wedding photo" data-slider-prev>&#8249;</button>
+					<div class="slider-track">
+						<figure class="slider-slide active" data-slide>
+							<img src="images_2/image1.JPEG" alt="Wedding photography portfolio image 1">
+							<figcaption><span>Wedding Photography</span><strong>Frame 01</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image2.jpeg" alt="Wedding photography portfolio image 2">
+							<figcaption><span>Wedding Photography</span><strong>Frame 02</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image3.jpeg" alt="Wedding photography portfolio image 3">
+							<figcaption><span>Wedding Photography</span><strong>Frame 03</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image4.JPEG" alt="Wedding photography portfolio image 4">
+							<figcaption><span>Wedding Photography</span><strong>Frame 04</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image5.jpeg" alt="Wedding photography portfolio image 5">
+							<figcaption><span>Wedding Photography</span><strong>Frame 05</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image6.jpeg" alt="Wedding photography portfolio image 6">
+							<figcaption><span>Wedding Photography</span><strong>Frame 06</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image7.jpeg" alt="Wedding photography portfolio image 7">
+							<figcaption><span>Wedding Photography</span><strong>Frame 07</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image8.jpeg" alt="Wedding photography portfolio image 8">
+							<figcaption><span>Wedding Photography</span><strong>Frame 08</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image9.jpeg" alt="Wedding photography portfolio image 9">
+							<figcaption><span>Wedding Photography</span><strong>Frame 09</strong></figcaption>
+						</figure>
+						<figure class="slider-slide" data-slide>
+							<img src="images_2/image10.jpeg" alt="Wedding photography portfolio image 10">
+							<figcaption><span>Wedding Photography</span><strong>Frame 10</strong></figcaption>
+						</figure>
+					</div>
+					<button class="slider-btn next" type="button" aria-label="Next wedding photo" data-slider-next>&#8250;</button>
+				</div>
+				<div class="slider-dots" aria-label="Wedding photo navigation">
+					<button class="active" type="button" aria-label="Show wedding photo 1" data-slide-to="0"></button>
+					<button type="button" aria-label="Show wedding photo 2" data-slide-to="1"></button>
+					<button type="button" aria-label="Show wedding photo 3" data-slide-to="2"></button>
+					<button type="button" aria-label="Show wedding photo 4" data-slide-to="3"></button>
+					<button type="button" aria-label="Show wedding photo 5" data-slide-to="4"></button>
+					<button type="button" aria-label="Show wedding photo 6" data-slide-to="5"></button>
+					<button type="button" aria-label="Show wedding photo 7" data-slide-to="6"></button>
+					<button type="button" aria-label="Show wedding photo 8" data-slide-to="7"></button>
+					<button type="button" aria-label="Show wedding photo 9" data-slide-to="8"></button>
+					<button type="button" aria-label="Show wedding photo 10" data-slide-to="9"></button>
+				</div>
+			</section>
+			<!-- <div class="gallery">
+				<figure>
+					<img src="images_1/img2.jpeg" alt="Wedding photography portfolio detail">
 					<figcaption><span>Wedding Photography</span><strong>Luxury Detail Coverage</strong></figcaption>
 				</figure>
-				<figure id="pre-wedding">
-					<img src="images/image5.png" alt="Cinematic couple portrait for pre-wedding portfolio">
-					<figcaption><span>Pre-Wedding</span><strong>Cinematic Couple Portraits</strong></figcaption>
-				</figure>
 				<figure id="events">
-					<img src="images/image3.png" alt="Professional event and reception setup">
+					<img src="images_1/img3.jpeg" alt="Professional event and reception setup">
 					<figcaption><span>Events</span><strong>Reception & Event Storytelling</strong></figcaption>
 				</figure>
 				<figure id="drone">
-					<img src="images/image4.png" alt="Outdoor cinematic scene for drone cinematography portfolio">
+					<img src="images_1/img4.jpeg" alt="Outdoor cinematic scene for drone cinematography portfolio">
 					<figcaption><span>Drone Cinematography</span><strong>Aerial-Style Visual Planning</strong></figcaption>
 				</figure>
 				<figure id="editing">
-					<img src="images/image6.png" alt="Warm cinematic reception ready for post production">
+					<img src="images_1/img5.jpeg" alt="Warm cinematic reception ready for post production">
 					<figcaption><span>Video Editing</span><strong>Color, Rhythm & Final Delivery</strong></figcaption>
 				</figure>
-			</div>
-			<div class="video-grid" id="wedding-films">
-				<div class="video-card">
-					<video controls preload="metadata" poster="images/image1.png" aria-label="Wedding film showreel video player"></video>
+			</div> -->
+			<div class="video-showcase" id="wedding-videos">
+				<div class="slider-heading">
 					<div>
-						<span>Wedding Films</span>
-						<h3>Cinematic Highlight Reel</h3>
-						<p>A polished film showcase focused on emotion, rhythm, camera movement and premium client delivery.</p>
+						<span>Wedding Videos</span>
+						<h3>Cinematic Wedding Films</h3>
+					</div>
+					<p>Three wedding video samples for reviewing camera movement, coverage quality, edit rhythm and final presentation.</p>
+				</div>
+				<div class="video-grid">
+					<div class="video-card rotated-card">
+						<video controls preload="metadata" poster="images_1/img6.JPEG"  aria-label="Wedding film video 1">
+							<source src="wedding_videos/video_1.mp4" type="video/mp4">
+						</video>
+						<div>
+							<span>Wedding Film</span>
+							<h3>Cinematic Highlight 01</h3>
+							<p>Premium wedding story coverage with polished pacing and emotional flow.</p>
+						</div>
+					</div>
+					<div class="video-card rotated-card">
+						<video controls preload="metadata"poster="images_1/img7.JPEG" aria-label="Wedding film video 2">
+							<source src="wedding_videos/video_2.mp4" type="video/mp4">
+						</video>
+						<div>
+							<span>Wedding Film</span>
+							<h3>Cinematic Highlight 02</h3>
+							<p>Client-ready film sample focused on moments, transitions and music timing.</p>
+						</div>
+					</div>
+					<div class="video-card rotated-card">
+						<video controls preload="metadata" poster="images_1/img8.JPEG" aria-label="Wedding film video 3">
+							<source src="wedding_videos/video_3.mp4" type="video/mp4">
+						</video>
+						<div>
+							<span>Wedding Film</span>
+							<h3>Cinematic Highlight 03</h3>
+							<p>A smooth production sample for recruiters and freelance clients.</p>
+						</div>
 					</div>
 				</div>
-				<div class="video-card">
-					<video controls preload="metadata" poster="images/image6.png" aria-label="Editing showreel video player"></video>
+			</div>
+			<div class="video-showcase" id="drone-shots">
+				<div class="slider-heading">
 					<div>
-						<span>Editing Reel</span>
-						<h3>Color, Music & Story Edit</h3>
-						<p>A recruiter-ready editing showcase for pacing, color consistency, music timing and final polish.</p>
+						<span>Drone Cinematography</span>
+						<h3>Aerial & Establishing Shots</h3>
+					</div>
+					<p>Three drone shot samples showing cinematic location coverage and production value.</p>
+				</div>
+				<div class="video-grid">
+					<div class="video-card rotated-card">
+						<video controls preload="metadata" poster="images_1/img4.jpeg" aria-label="Drone shot video 1">
+							<source src="droneshots_videos/droneshot_1.mp4" type="video/mp4">
+						</video>
+						<div>
+							<span>Drone Shot</span>
+							<h3>Aerial Shot 01</h3>
+							<p>Cinematic aerial coverage for scale, location and opening sequences.</p>
+						</div>
+					</div>
+					<div class="video-card rotated-card">
+						<video controls preload="metadata" poster="images_1/img7.JPEG" aria-label="Drone shot video 2">
+							<source src="droneshots_videos/droneshot_2.mp4" type="video/mp4">
+						</video>
+						<div>
+							<span>Drone Shot</span>
+							<h3>Aerial Shot 02</h3>
+							<p>Smooth movement sample for premium event and production projects.</p>
+						</div>
+					</div>
+					<div class="video-card rotated-card">
+						<video controls preload="metadata" poster="images_1/img10.JPEG" aria-label="Drone shot video 3">
+							<source src="droneshots_videos/droneshot_3.mp4" type="video/mp4">
+						</video>
+						<div>
+							<span>Drone Shot</span>
+							<h3>Aerial Shot 03</h3>
+							<p>Recruiter-friendly drone sample showing cinematic production value.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -248,5 +421,45 @@
 		</div>
 		<div class="copyright">© 2026 Inder Kandari. Photography, Videography & Video Editing Portfolio.</div>
 	</footer>
+	<script>
+		document.querySelectorAll("[data-slider]").forEach((slider) => {
+			const slides = slider.querySelectorAll("[data-slide]");
+			const dots = slider.querySelectorAll("[data-slide-to]");
+			const previous = slider.querySelector("[data-slider-prev]");
+			const next = slider.querySelector("[data-slider-next]");
+			let currentSlide = 0;
+			let autoplay = setInterval(() => showSlide(currentSlide + 1), 3500);
+
+			function showSlide(index) {
+				currentSlide = (index + slides.length) % slides.length;
+				slides.forEach((slide, slideIndex) => {
+					slide.classList.toggle("active", slideIndex === currentSlide);
+				});
+				dots.forEach((dot, dotIndex) => {
+					dot.classList.toggle("active", dotIndex === currentSlide);
+				});
+			}
+
+			function restartAutoplay() {
+				clearInterval(autoplay);
+				autoplay = setInterval(() => showSlide(currentSlide + 1), 3500);
+			}
+
+			previous.addEventListener("click", () => {
+				showSlide(currentSlide - 1);
+				restartAutoplay();
+			});
+			next.addEventListener("click", () => {
+				showSlide(currentSlide + 1);
+				restartAutoplay();
+			});
+			dots.forEach((dot) => {
+				dot.addEventListener("click", () => {
+					showSlide(Number(dot.dataset.slideTo));
+					restartAutoplay();
+				});
+			});
+		});
+	</script>
 </body>
 </html>
