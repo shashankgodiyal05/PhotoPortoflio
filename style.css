@@ -1439,8 +1439,8 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
 
     .wedding-grid {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 280px);
-        gap: 10px;
+        grid-template-rows: auto;
+        gap: 16px;
     }
 
     .gallery-hero,
@@ -1452,6 +1452,7 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
         grid-column: 1;
         grid-row: auto;
         display: block;
+        height: 280px;
     }
 
     .gallery-hero {
