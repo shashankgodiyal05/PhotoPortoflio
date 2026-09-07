@@ -1267,6 +1267,52 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
 }
 
 
+/* Caption */
+
+.gallery-item figcaption {
+    position: absolute;
+    left: 20px;
+    bottom: 18px;
+    color: white;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: 0.35s ease;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.gallery-item figcaption span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.gallery-item:hover figcaption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Dark gradient */
+
+.gallery-item::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 45%;
+    background: linear-gradient(to top, rgba(0,0,0,0.65), transparent);
+    opacity: 0;
+    transition: 0.35s ease;
+    pointer-events: none;
+}
+
+.gallery-item:hover::after {
+    opacity: 1;
+}
+
+
 /* Lightbox */
 
 .gallery-lightbox {
@@ -1405,6 +1451,15 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
 
     .gallery-hero {
         height: 350px;
+    }
+
+    .gallery-item figcaption {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .gallery-item::after {
+        opacity: 1;
     }
 
     .lightbox-image {
