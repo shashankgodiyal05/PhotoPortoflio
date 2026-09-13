@@ -956,16 +956,28 @@ h3 { font-size: 1.12rem; line-height: 1.25; margin: 0 0 10px; }
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
-	margin-bottom: 20px;
+	justify-content: flex-end;
+	max-width: 1200px;
+	margin: 0 auto 24px;
 }
 
 .portfolio-filters a {
+	background: var(--panel);
 	border: 1px solid var(--line);
 	border-radius: 999px;
 	color: var(--muted);
 	font-size: .78rem;
 	font-weight: 700;
-	padding: 8px 14px;
+	padding: 8px 16px;
+	transition: border-color .2s ease, color .2s ease, transform .2s ease, box-shadow .2s ease;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.portfolio-filters a:hover {
+	border-color: var(--gold);
+	color: var(--text);
+	transform: translateY(-1px);
+	box-shadow: 0 4px 12px rgba(183, 138, 52, 0.15);
 }
 
 .featured-section { background: #fbfaf7; }
@@ -1194,6 +1206,7 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
 	.timeline { margin-left: 0; }
 	.timeline article { margin-left: 0; }
 	.timeline article::before { display: none; }
+	.portfolio-filters { justify-content: flex-start; }
 }
 /* Wedding Gallery */
 
