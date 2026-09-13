@@ -793,12 +793,12 @@ h1, h2 {
 	font-family: "Playfair Display", Georgia, serif;
 	font-weight: 700;
 	letter-spacing: 0;
-	line-height: .98;
+	line-height: 1.12;
 	margin: 0;
 }
 
-h1 { font-size: clamp(4rem, 9vw, 8.4rem); }
-h2 { font-size: clamp(2.2rem, 5vw, 4.8rem); max-width: 900px; }
+h1 { font-size: clamp(2.4rem, 4.5vw, 3.8rem); }
+h2 { font-size: clamp(1.75rem, 2.8vw, 2.5rem); max-width: 900px; }
 h3 { font-size: 1.12rem; line-height: 1.25; margin: 0 0 10px; }
 
 .eyebrow {
@@ -992,7 +992,7 @@ h3 { font-size: 1.12rem; line-height: 1.25; margin: 0 0 10px; }
 	grid-template-columns: 1.1fr .9fr .7fr;
 }
 
-.site-footer h2 { font-size: clamp(2.2rem, 4vw, 4.2rem); margin: 12px 0 20px; }
+.site-footer h2 { font-size: clamp(1.75rem, 2.8vw, 2.5rem); margin: 12px 0 20px; }
 .contact-form { display: grid; gap: 12px; }
 input, textarea {
 	background: var(--panel);
@@ -1164,7 +1164,7 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
 	.hero { padding-top: 26px; }
 	.hero-media { max-width: 390px; }
 	.hero-slider { aspect-ratio: 1 / 1.18; max-height: 460px; }
-	h1 { font-size: clamp(3.2rem, 18vw, 5.6rem); }
+	h1 { font-size: clamp(1.9rem, 7.5vw, 2.6rem); }
 	.hero-actions .btn { width: 100%; }
 	.slider-track { height: clamp(330px, 90vw, 540px); }
 	.slider-shell { transform: rotate(0); }
@@ -1199,9 +1199,9 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
 
 .gallery-heading h3 {
     margin: 0;
-    font-size: clamp(28px, 4vw, 48px);
+    font-size: clamp(22px, 2.8vw, 34px);
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 
@@ -1527,11 +1527,9 @@ input:focus, textarea:focus { border-color: var(--gold); outline: none; }
 
 .films-heading h2 {
     margin: 0 0 15px;
-
-    font-size: clamp(32px, 4vw, 52px);
+    font-size: clamp(24px, 3vw, 36px);
     font-weight: 500;
-
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .films-heading p {
